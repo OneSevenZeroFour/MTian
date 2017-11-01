@@ -1,0 +1,3 @@
+.list_title p{margin-top:5px;}
+.list_title p.tenem span {margin-left:10px;}
+.list_title p.price span {color:red;font-size:18px;}

@@ -1,0 +1,42 @@
+html,body,#demo,#demo>div{height:100%;}
+.housejw{height:100%;display:flex;flex-direction:column;justify-content:space-between;}
+.jwhead{height:41px;}
+.housejw header{width:100%;padding:0 15px;display:flex;padding-top:5px;background:rgba(251,251,251,1)}
+.housejw header p{display:inline-block;font-size:18px;line-height:30px;width:120px;flex:1;text-align:center;border-radius:3px;margin-top:5px;}
+.housejw header p span {display:inline-block;font-size:16px;line-height:30px;width:60px;text-align:center;color:#ff5722;}
+.housejw header p span:first-child{border-right:1px solid #FF5722px;}
+
+.housejw header i.anticon {line-height:30px;font-size:20px;}
+
+/*nav*/
+.housejw .nav span .ant-select{width:24%;}
+.housejw .nav {padding:2px 0;background:#ddd;height:32px;}
+/*内容部分*/
+.housejw .example{
+    text-align: center;
+    margin-top:10%;
+    display: none;
+}
+.housejw .showActive{
+    display: block;
+}
+.fl{float:left;}
+.fr{float:right;}
+ul,li{list-style: none;}
+.clearfix:after{content:"";height:0;display:block;clear:both;overflow: hidden;visibility:hidden;}
+.conten{width:90%;margin:0 auto;border-bottom:1px dashed #ccc;padding:10px 0;}
+.jwconent{flex:1;overflow-y:auto;}
+.conten .pri{width:25%}
+.conten .pri a{ display:inline-block;width:100%}
+.conten .pri a img{width:100%}
+.list_title{width:70%;margin-left:10px;}
+.list_title h1{font-size:14px;line-height:18px;color:#333;}
+.list_title h1 a{color:#555;font-size:14px;line-height:18px;}
+.list_title  p span{padding-left:5px;}
+.list_title .the_price strong{color:red;font-size:16px;}
+.list_title .the_price strong em{font-size:18px;}
+.list_title .the_price .monthpay {color:#58bc58;}
+.list_title .leixin span{ margin-left:10px;}
+.list_title .leixin .red{display:inline-block;padding:5px;border:1px solid red;color:red;}
+.list_title .leixin .green{display:inline-block;padding:5px;border:1px solid #58bc58;color:#58bc58;}
+.jwfooter{width:100%;height:60px;}

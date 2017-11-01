@@ -1,0 +1,79 @@
+body,select,option{
+	margin:0;
+	padding:0;
+}
+#LY_header{
+	position:relative;
+	padding-top:38%;
+	background:url("http://xm.maitian.cn/Skin/images/home/banner-xm.jpg") no-repeat;
+	background-size:100%;
+	.imgbox{
+		position:absolute;
+		left:50%;
+		top:50%;
+		transform:translate(-50%,-50%);
+		img{
+			width:100%;
+			display: block;
+		}
+	}
+	.searchbox{
+		height:20%;
+		width:90%;
+		position:absolute;
+		left:50%;
+		bottom:7%;
+		transform:translate(-50%,0);
+		display: flex;
+		justify-content: space-between;
+		select{
+			background:#fff;
+			flex:1.5;
+			border-radius:4px;
+			font-size:12px;
+			text-align: center;
+			outline: none;
+			border-radius:4px;
+			border:0;
+			width:100%;
+			height:100%;
+		}
+
+		
+		form{
+			border-radius:4px;
+			margin-left:5%;
+			background:#fff;
+			display: flex;
+			flex:6;
+			input{
+				padding-left:5px;
+				border-radius:4px;
+				border:0;
+				flex:6;
+
+			}
+			span{
+				border-radius:0 4px 4px 0;
+				flex:1;
+				text-align:center;
+				line-height:24px;
+				color:#fff;
+				background:#ffd53c;
+				
+			}
+		}
+		
+
+	}
+	.fixed{
+		position:fixed;
+		top:0;
+		height:5%;
+		padding:4% 5%;
+		background:#fd6d16;
+		transition: background 1s;
+		box-sizing: content-box;
+		
+	}
+}

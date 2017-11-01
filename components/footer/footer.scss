@@ -1,0 +1,39 @@
+body,ul{
+	margin:0;
+	padding:0;
+}
+#LY_footer{
+	border-top:1px solid #ddd;
+	position: fixed;
+	bottom:0;
+	width:100%;
+	background:#fff;
+	ul{
+		padding:1.5% 0;	
+		display: flex;
+		justify-content:space-around;
+		list-style:none;
+		li{
+			text-align: center;
+			a{
+				color:#949292;
+				text-decoration: none;
+				i{
+				font-size:18px;
+				}
+				p{
+
+					margin:2px 0 0 0;
+					font-size:12px;
+				}
+			}
+			
+		}
+		.active{
+			a{
+				color:#fd6d16;
+			}
+			
+		}
+	}
+}
